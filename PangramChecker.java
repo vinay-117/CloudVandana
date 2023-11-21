@@ -32,3 +32,6 @@ public class PangramChecker {
         return uniqueLetters.size() == 26; // There are 26 letters in the English alphabet
     }
 }
+
+//Output: The quick brown fox jumps over the lazy dog
+//The input is a pangram!
