@@ -20,3 +20,4 @@ var reversedResult = reverseWords(inputSentence);
 // Displaying the reversed sentence
 console.log(reversedResult);
 
+//Output: olleH duolc anadnav
