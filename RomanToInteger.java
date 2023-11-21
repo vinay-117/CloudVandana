@@ -1,11 +1,18 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class RomanToInteger {
     public static void main(String[] args) {
-        String romanNumeral = "XIV"; // You can replace this with the Roman numeral you want to convert
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a Roman numeral: ");
+        String romanNumeral = scanner.nextLine().toUpperCase(); // Convert to uppercase for case-insensitivity
+
         int result = romanToInt(romanNumeral);
         System.out.println("The integer equivalent of " + romanNumeral + " is: " + result);
+
+        scanner.close();
     }
 
     public static int romanToInt(String s) {
