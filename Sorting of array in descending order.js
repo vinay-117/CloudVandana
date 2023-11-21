@@ -10,3 +10,5 @@ var sortedArray = sortArrayDescending(myArray);
 
 // Displaying the sorted array
 console.log(sortedArray);
+
+//Output: [9, 6, 5, 5, 2, 1]
