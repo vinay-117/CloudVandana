@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ArrayShuffler {
+public class ShuffleArray {
 
     public static void main(String[] args) {
         // Create an array with values (1, 2, 3, 4, 5, 6, 7)
@@ -22,3 +22,5 @@ public class ArrayShuffler {
         System.out.println("Shuffled Array: " + Arrays.toString(myArray));
     }
 }
+
+//Output: Shuffled Array: [6, 7, 5, 2, 3, 4, 1]
